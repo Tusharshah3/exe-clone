@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "convex:deploy": "convex deploy",
+    "deploy": "npm run build && npx convex deploy"
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.2.0",
