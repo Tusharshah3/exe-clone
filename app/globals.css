@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* added to centralize the logo ,only for logging*/
 html,
 body,
 :root {
